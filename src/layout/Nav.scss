@@ -1,0 +1,38 @@
+
+.nav {
+  .MuiTabs-flexContainer {
+    justify-content: center;
+
+    > * {
+      flex: 1;
+      min-width: 0;
+      color: #fff !important;
+    }
+  }
+
+  .MuiTabs-root:not(.stretch) {
+
+    .MuiTab-root {
+      margin-right: 12px;
+    }
+  }
+
+  .MuiTabs-root.stretch {
+    .MuiTabs-flexContainer {
+      justify-content: space-between;
+    }
+
+    .MuiTab-root {
+      max-width: 48px;
+    }
+  }
+
+  .MuiPaper-root {
+    background-color: cornflowerblue;
+    color: #fff;
+  }
+
+  .MuiTabs-indicator {
+    background-color: #fff;
+  }
+}
