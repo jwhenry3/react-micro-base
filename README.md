@@ -8,7 +8,7 @@ with features compatible with your authentication and user system*
 - `ENTRY=auth npm run build` Compile the auth micro-app
 - `ENTRY=dashboard npm run build` Compile the dashboard micro-app
 - `npm run build` Compile the root app
-- `serve -s dist` 
+- `serve dist` 
 
 ### Build Process
 The build process will compile the specified entry (or the root app) and will copy the necessary files
